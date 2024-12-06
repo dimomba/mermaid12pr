@@ -1,3 +1,4 @@
+```mermaid
 mindmap
   root((Управление гостиницей))
     Основные процессы
@@ -56,3 +57,4 @@ mindmap
           Кеширование
             Redis
             Memcached
+```
