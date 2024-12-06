@@ -95,8 +95,8 @@ journey
 ```mermaid
 quadrantChart
   title Hotel Management Feature Prioritization
-  x-axis Priority: Low Priority --> High Priority
-  y-axis Complexity: Low Complexity --> High Complexity
+  x-axis Priority Low to High
+  y-axis Complexity Low to High
   quadrant-1 Plan for the near future
   quadrant-2 Implement immediately
   quadrant-3 Consider discarding
@@ -113,4 +113,5 @@ quadrantChart
   "Room Sorting": [0.7, 0.4]
   "User Authorization": [0.9, 0.5]
   "Add to Favorites": [0.8, 0.4]
+
 ```
