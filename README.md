@@ -95,7 +95,7 @@ journey
 ```mermaid
 quadrantChart
   title Hotel Management Feature Prioritization
-  x-axis Пriority Low to High
+  x-axis Priority Low to High
   y-axis Complexity Low to High
   quadrant-1 Plan for the near future
   quadrant-2 Implement immediately
