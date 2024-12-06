@@ -94,24 +94,24 @@ journey
 # Квадрант-граф
 ```mermaid
 quadrantChart
-  title Hotel Management Feature Prioritization
-  x-axis Priority Low to High
-  y-axis Complexity Low to High
-  quadrant-1 Plan for the near future
-  quadrant-2 Implement immediately
-  quadrant-3 Consider discarding
-  quadrant-4 Requires detailed analysis
-  "Guest Chat": [0.3, 0.8]
-  "Guest Feedback": [0.4, 0.7]
-  "Booking History": [0.5, 0.6]
-  "Financial Reports": [0.8, 0.9]
-  "Payment Integration": [0.7, 0.9]
-  "Room Occupancy Analytics": [0.9, 0.8]
-  "Booking Notifications": [0.2, 0.3]
-  "Service Recommendations": [0.3, 0.2]
-  "Save Guest Preferences": [0.1, 0.2]
-  "Room Sorting": [0.7, 0.4]
-  "User Authorization": [0.9, 0.5]
-  "Add to Favorites": [0.8, 0.4]
+  title Приоритеты разработки функционала для управления гостиницей
+  x-axis Приоритет Низкий к Высокий
+  y-axis Сложность Низкая к Высокая
+  quadrant-1 Планировать в ближайшее время
+  quadrant-2 Реализовать немедленно
+  quadrant-3 Возможно, стоит отказаться
+  quadrant-4 Требует тщательного анализа
+  "Чат с гостями": [0.3, 0.8]
+  "Обратная связь гостей": [0.4, 0.7]
+  "Просмотр истории бронирований": [0.5, 0.6]
+  "Генерация финансовых отчетов": [0.8, 0.9]
+  "Интеграция с платежной системой": [0.7, 0.9]
+  "Аналитика занятости номеров": [0.9, 0.8]
+  "Уведомления о бронировании": [0.2, 0.3]
+  "Рекомендация дополнительных услуг": [0.3, 0.2]
+  "Сохранение предпочтений гостей": [0.1, 0.2]
+  "Сортировка номеров": [0.7, 0.4]
+  "Авторизация клиентов": [0.9, 0.5]
+  "Добавление в избранное": [0.8, 0.4]
 
 ```
