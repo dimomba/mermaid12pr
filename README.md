@@ -121,15 +121,15 @@ quadrantChart
   "Guest Chat": [0.3, 0.8]
   "Guest Feedback": [0.4, 0.7]
   "Booking History": [0.5, 0.6]
-  "Financial Reports": [0.8, 0.9]
+  "Financial Reports": [0.8, 0.8]
   "Payment Integration": [0.7, 0.9]
   "Room Occupancy Analytics": [0.9, 0.8]
-  "Booking Notifications": [0.2, 0.3]
+  "Booking Notifications": [0.2, 0.4]
   "Service Recommendations": [0.3, 0.2]
-  "Save Guest Preferences": [0.1, 0.2]
+  "Save Guest Preferences": [0.1, 0.3]
   "Room Sorting": [0.7, 0.4]
   "User Authorization": [0.9, 0.5]
-  "Add to Favorites": [0.8, 0.4]
+  "Add to Favorites": [0.8, 0.3]
 ```
 ### Пояснение диаграммы
 Квадранты:
