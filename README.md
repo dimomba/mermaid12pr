@@ -119,23 +119,22 @@ quadrantChart
 ```mermaid
 gitGraph:
    commit
-   commit
    branch feature/room-booking
-   commit
-   commit
-   branch feature/check-in
    commit
    commit
    checkout master
    merge feature/room-booking
    commit
-   branch feature/payment-processing
+   branch feature/guest-registration
    commit
-   checkout feature/check-in
-   merge feature/payment-processing
    commit
    checkout master
-   merge feature/check-in
+   merge feature/guest-registration
+   commit
+   branch feature/payment-processing
+   commit
+   checkout master
+   merge feature/payment-processing
    commit
    branch feature/room-service
    commit
@@ -144,4 +143,5 @@ gitGraph:
    checkout master
    merge feature/room-service
    commit
+
 ```
