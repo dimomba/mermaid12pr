@@ -118,30 +118,29 @@ quadrantChart
 # Гит граф (Gitgraph)
 ```mermaid
 gitGraph:
-   commit
+   commit id: "Initial commit"
+   branch master
+   commit id: "Commit to master"
    branch feature/room-booking
-   commit
-   commit
+   commit id: "Room booking feature"
+   commit id: "Room booking feature - second commit"
    checkout master
    merge feature/room-booking
-   commit
+   commit id: "Merged room booking feature into master"
    branch feature/guest-registration
-   commit
-   commit
+   commit id: "Guest registration feature"
+   commit id: "Guest registration feature - second commit"
    checkout master
    merge feature/guest-registration
-   commit
+   commit id: "Merged guest registration feature into master"
    branch feature/payment-processing
-   commit
+   commit id: "Payment processing feature"
    checkout master
    merge feature/payment-processing
-   commit
+   commit id: "Merged payment processing feature into master"
    branch feature/room-service
-   commit
-   merge feature/room-service
-   commit
+   commit id: "Room service feature"
    checkout master
    merge feature/room-service
-   commit
-
+   commit id: "Merged room service feature into master"
 ```
